@@ -29,6 +29,8 @@ PdfConversion::Application.routes.draw do
   match '/html_with_table', :to => 'home#html_with_table'
   match '/to_pdf_images', :to => 'home#to_pdf_images'
   match '/to_pdf_table', :to => 'home#to_pdf_table'
+  match '/certificate', :to => 'home#certificate'
+  match '/generate_certificate', :to => 'home#generate_certificate'
   # Sample resource route with sub-resources:
   #   resources :products do
   #     resources :comments, :sales

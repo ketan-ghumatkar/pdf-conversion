@@ -6,9 +6,9 @@
 development:
   adapter: mysql2
   database: pdf_development
-  pool: 5
   username: root
-  password: josh123
+  password: webonise6186
+  pool: 5
   timeout: 5000
 
 # Warning: The database defined as "test" will be erased and
@@ -18,14 +18,10 @@ test:
   adapter: mysql2
   database: pdf_test
   pool: 5
-  username: root
-  password: josh123
   timeout: 5000
 
 production:
   adapter: mysql2
   database: pdf_production
   pool: 5
-  username: root
-  password: josh123
   timeout: 5000
